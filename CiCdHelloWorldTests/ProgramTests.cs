@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using CiCdHelloWorld;
+using Xunit;
 
 namespace CiCdHelloWorldTests
 {
@@ -7,7 +8,8 @@ namespace CiCdHelloWorldTests
         [Fact]
         public void GetFlagTest()
         {
-
+            var program = new Program();
+            Assert.True(program.GetFlag());
         }
     }
 }
