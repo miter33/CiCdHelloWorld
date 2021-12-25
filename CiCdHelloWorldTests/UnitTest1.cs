@@ -12,5 +12,12 @@ namespace CiCdHelloWorldTests
             var program = new Program();
             Assert.True(program.GetFlag());
         }
+
+        [Fact]
+        public void GetFlagTest2()
+        {
+            var program = new Program();
+            Assert.True(program.GetFlag());
+        }
     }
 }
