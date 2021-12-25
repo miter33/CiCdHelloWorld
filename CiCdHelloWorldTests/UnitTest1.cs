@@ -17,7 +17,7 @@ namespace CiCdHelloWorldTests
         public void GetFlagTest2()
         {
             var program = new Program();
-            Assert.True(program.GetFlag());
+            Assert.False(program.GetFlag());
         }
     }
 }
