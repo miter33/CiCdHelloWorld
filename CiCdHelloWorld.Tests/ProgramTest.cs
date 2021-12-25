@@ -8,8 +8,10 @@ namespace CiCdHelloWorld.Tests
         [Fact]
         public void MainTest()
         {
-            var result = false;
-            Assert.False(result);
+            var program = new Program();
+
+            var result = program.GetFlag();
+            Assert.True(result);
         }
     }
 }
