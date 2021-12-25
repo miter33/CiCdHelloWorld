@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CiCdHelloWorld", "CiCdHelloWorld\CiCdHelloWorld.csproj", "{EF7106F7-7572-45E6-9869-E8A531B27319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCdHelloWorld.Tests", "CiCdHelloWorld.Tests\CiCdHelloWorld.Tests.csproj", "{7D8D38D3-46BA-452D-B97E-2D6983FDFEC2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{EF7106F7-7572-45E6-9869-E8A531B27319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF7106F7-7572-45E6-9869-E8A531B27319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF7106F7-7572-45E6-9869-E8A531B27319}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D8D38D3-46BA-452D-B97E-2D6983FDFEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D8D38D3-46BA-452D-B97E-2D6983FDFEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D8D38D3-46BA-452D-B97E-2D6983FDFEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D8D38D3-46BA-452D-B97E-2D6983FDFEC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
